@@ -15,13 +15,9 @@ python3 060_genpromoters.py
 python3 070_programs.py
 python3 080_genmotifs.py
 
-## Copy the PHP files
-cp -r php ../.
+## Copy the PHP folder to DOCUMENT_ROOT
+#cp -r php/* /var/www/html/.
 
 ## Leave folder
 cd ..
 
-## Copy the PHP folder to DOCUMENT_ROOT
-#cp -r php/* /var/www/html/.
-#rsync -auvx php/* ../php/.
-#rsync -auvx ../php/* /var/www/html/.
